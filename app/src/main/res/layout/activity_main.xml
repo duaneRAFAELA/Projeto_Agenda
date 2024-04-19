@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#00FFFFFF"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="264dp"
+        android:layout_height="836dp"
+        android:background="@color/VerdeFundo"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="161dp"
+        android:layout_height="139dp"
+        app:srcCompat="@drawable/imagem_perfil"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="46dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/VerdeBotoes"
+        android:hapticFeedbackEnabled="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="12dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/icone_editarperfil"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/VerdeBotoes"
+        android:text="Visão Geral"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/VerdeBotoes"
+        android:text="Disciplinas"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/VerdeBotoes"
+        android:text="Calendario"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/VerdeBotoes"
+        android:text="Agenda"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="55dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/icone_visaogeral"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/icone_agenda"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="51dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/icone_calendario"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="53dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/estudar_1"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
